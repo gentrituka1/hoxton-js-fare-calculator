@@ -10,13 +10,16 @@ while (!/^[0-9]+$/.test(travelDistance)) {
 }
 
 
+// @ts-ignore
 let thePrice = travelDistance * 0.21;
 
+// @ts-ignore
 if (userAge < 18){
     let thePriceToPay = thePrice - (thePrice * (20 / 100));
     let theRealPriceToPay = thePriceToPay.toFixed(1);
     console.log("Oi m8, you need to drop at least: " + "£" + theRealPriceToPay);
 } 
+// @ts-ignore
 else if (userAge > 65) {
     let thePriceToPay = thePrice - (thePrice * (40 / 100));
     let theRealPriceToPay = thePriceToPay.toFixed(1);
