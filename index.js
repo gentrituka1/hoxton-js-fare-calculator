@@ -12,5 +12,5 @@ else if (userAge > 65) {
     let theRealPriceToPay = thePriceToPay.toFixed(2);
     console.log("Oi grandpa, how u doin, drop at least: " + theRealPriceToPay + "£");
 } else {
-    console.log("I don't think you need to pay lad, I don't know why.");
+    console.log("Oi there lad, no discount for you bruv, so you have to pay: " + thePrice);
 }
