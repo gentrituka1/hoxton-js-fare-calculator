@@ -1,4 +1,3 @@
-// let userAge = Number(prompt("How old are you?"));
 let userAge = prompt("How old are you? (enter a number)");
 while (!/^[0-9]+$/.test(userAge)) {
     alert("Mate are you kidding me? I said a number!!!");
